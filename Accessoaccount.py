@@ -2,9 +2,9 @@ def accesso():
     password = input("Imposta la password: ")
     
 
-    contatore = 0
+    contatore = 1
 
-    while(contatore<3):
+    while(contatore<4):
    
         tentativo = input("inserisci la tua password per accedere: ")
 
@@ -23,6 +23,7 @@ def accesso():
 
 if __name__ == '__main__':
     accesso()
+
 
 
 
